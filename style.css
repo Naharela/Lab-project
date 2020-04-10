@@ -1,0 +1,473 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+.fix{overflow: hidden;}
+.floatleft{float: left;}
+.floatright{float: right;}
+
+
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1120px;
+    margin: 0 auto;
+}
+body{font-family: SairaSemi;}
+
+
+
+.sticker{
+	position:fixed;
+	top:90%;
+    right:3%;
+    background-color: #122333;
+    padding: 4px 10px;
+    color: #fff;
+}
+
+
+/*------------HEADER PART------------*/
+
+
+.header_bg{
+    background-color: #fff;
+    border-top: 6px solid #122333;
+    box-shadow: 0px 2px 5px #C4C2C2;
+    height: 86px
+}
+.header{
+    padding: 30px 0px 57px 0px;
+}
+.header .logo{
+    margin-top: -16px;
+}
+.header .nav{
+    margin-left: 70px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    font-size: 17px;
+    font-weight: bold;
+    color: #122333;
+    display: block;
+    padding: 0 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.nav ul li a:hover{
+    color: #ED4C21;
+}
+.nav ul li a:active{
+    color: #000;
+}
+
+
+.header .num_ord{}
+.header .num_ord .number{
+    background-color: #122333;
+    padding: 14px 22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+.header .num_ord .number:hover{
+    background-color: #ED4C21;
+    color: #122333;
+}
+.header .num_ord .order{
+    background-color: #122333;
+    padding: 14px 14px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.header .num_ord .order:hover{
+    background-color: #ED4C21;
+    color: #122333;
+}
+
+
+
+/*-----------SLIDER PART-------------*/
+
+
+.slider_bg{
+    margin-top: 50px;
+}
+.slider{
+    display: block;
+    padding: 10px 0;
+    background: url(img/slider_shadow.png) no-repeat;
+    background-position: bottom center;
+    border-radius: 18px;
+}
+.theme-light.slider-wrapper{
+    padding: ;
+    display: block;
+    border-radius: 10px;
+}
+.theme-light a.nivo-prevNav{
+    background-color: #CDCDCD;
+    border-radius: 15px;
+}
+.theme-light a.nivo-nextNav{
+    background-color: #CDCDCD;
+    border-radius: 15px;
+}
+.theme-light a.nivo-prevNav:hover{
+    background-color: #8D8D8D;
+    border-radius: 15px;
+}
+.theme-light a.nivo-nextNav:hover{
+    background-color: #8D8D8D;
+    border-radius: 15px;
+}
+
+
+
+
+/*-----------SERVICE PART-------------*/
+
+
+.service_bg{
+    margin-top: 100px;
+}
+.service > h2{
+    color: #122333;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.service .column{
+    margin-top: 60px;
+}
+.column h3{color: #ED4C21;}
+.service .column h1{
+    color: #122333;
+    font-size: 35px;
+    line-height: 1.2em;
+    display: inline-block;
+    margin: -20px 0px 0px 35px;
+}
+.service .column p{
+    margin: 25px 0 25px 35px;
+}
+.service .column ul{
+    margin-left: 51px;
+    margin-bottom: 50px;
+    list-style-type: square;
+}
+.service .column a{
+    margin-left: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #122333;
+    padding: 10px 24px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    transition: all 0.3s ease;
+}
+.service .column a:hover{
+    background-color: #ED4C21;
+    color: #122333;
+}
+.column .first_col, .second_col, .third_col{
+    background-color: #D4D9DB;
+    width: 240px;
+    margin-right: 45px;
+    padding: 50px;
+}
+.column .third_col{
+    margin-right: 0px;
+}
+
+
+
+/*-----------ARTICLE PART-------------*/
+
+
+.article_bg{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.article{
+    
+}
+.article > h1{
+    color: #122333;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.art_column .first_art_col, .sec_art_col, .third_art_col{
+    width: 340px;
+    margin-right: 50px;
+}
+.art_column .third_art_col{
+    margin-right: 0px;
+}
+.article .art_column img{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 20px;
+}
+.article .art_column h2{
+    margin-bottom: 20px;
+}
+.article .art_column p{
+    margin-bottom: 20px;
+}
+.article .art_column a{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #122333;
+    padding: 10px 24px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    transition: all 0.3s ease;
+}
+.article .art_column a:hover{
+    background-color: #ED4C21;
+    color: #122333;
+}
+
+
+
+/*-----------LOCATION PART-------------*/
+
+
+.location_bg{
+    margin-bottom: 50px;
+}
+.location_part h1{
+    color: #122333;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.location_part .map{
+    width: 50%;
+}
+.location_part .find_us{
+    width: 38%;
+    height: 400px;
+    background-color: #122333;
+    padding: 0 67px;
+}
+.location_part .find_us h3{
+    margin-top: 70px;
+    color: #ED4C21;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.location_part .find_us .info{
+    color: #fff;
+    margin-bottom: 48px;
+}
+.find_us img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.find_us .icon{
+    display: inline-block;
+    margin-right: 10px;
+}
+.location{
+    margin-bottom: 5px;
+}
+.location .address{
+    color: #fff;
+}
+.time{
+    margin-bottom: 5px;
+}
+.time .start_end{
+    color: #fff;
+}
+.email .mail{
+    color: #fff;
+}
+
+
+
+/*---------FOOTER TOP PART----------*/
+
+
+.footer_top{
+    background-color: #2F354F;
+    overflow: hidden;
+    padding: 15px 0px 50px 0;
+}
+.footer_top h3{
+    color: #fff;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+}
+.left_con{
+    width: 400px;
+    margin-right: 100px;
+}
+.left_con a{
+    background-color: #ED4C21;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 17px 88px;
+    display: block;
+    margin: 60px 60px 0 60px;
+}
+.left_con a:hover{
+    color: #122333;
+}
+.left_con h2{
+    background-color: #ED4C21;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 20px 31px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 10px 25px 0 25px;
+}
+
+
+.middle_con{
+    width: 200px;
+    margin-top: 60px;
+}
+.middle_con ul li a{
+    color: #BAC0C3;
+}
+.middle_con ul li a:hover{
+    color: #ED4C21;
+}
+
+
+.right_con{
+    width: 340px;
+    margin-right: 0;
+    margin-top: 60px;
+}
+.right_con ul li a{
+    color: #BAC0C3;
+}
+.right_con ul li a:hover{
+    color: #ED4C21;
+}
+
+
+
+/*---------FOOTER PART----------*/
+
+
+.footer{
+    background-color: #122333;
+    overflow: hidden;
+}
+.footer p{
+    color: #BAC0C3;
+    padding: 20px 25px;
+}
+.footer a{
+    color: #fff;
+}
+.footer a:hover{
+    color: #ED4C21;
+}
+
+
+
+
+
+
+
+/*---------REGISTER PART----------*/
+
+
+
+.register{
+    text-align: center;
+}
+.register h1{
+    color: #ED4C21;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.register a{
+    color:#fff;
+    background-color:#ED4C21;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+.register a:hover{
+    color: #122333;
+}
+.form input{
+    padding: 15px 25px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #424242;
+    border: none;
+    color: #fff;
+}
+.form .name{
+    width: 141px;
+}
+.form .email, .password, .phone{
+    width: 338px;
+}
+
+
+
+
+
+
+
+
+
